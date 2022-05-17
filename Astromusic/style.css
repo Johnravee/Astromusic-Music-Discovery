@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+    font-family: 'Koulen', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+/* .bg{
+    background-size: cover;
+    background-image: url(images/last.jpg);
+} */
+
+body{
+    background-image: url(images/bg.jpg);
+
+    background-size: cover;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5cm;
+   align-items: center;
+}
+header nav h2{
+  
+    margin-right: auto;
+    margin-left: 10rem;
+    cursor: pointer;
+    padding-top: 10px;
+    color: white;
+    padding-top: 20px;
+}
+
+header nav a{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+
+header nav a:hover{
+    text-decoration: none;
+    color: rgb(130, 6, 247);
+    border-bottom: 1px solid whitesmoke;
+}
+
+
+.containerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.containerr img{
+    padding-left: 3rem;
+   animation: float 3s linear infinite;
+  cursor: pointer;
+
+}
+
+@keyframes float{
+0%,100%{
+    transform: translateY(0rem);
+}
+
+50%{
+    transform: translateY(2rem);
+}
+
+}
+
+
+
+.main-content{
+   
+    margin-right: 10rem;
+    align-items: center;
+    color: white;
+    padding-left: 15%;
+} 
+
+
+
+.main-content> h3{
+    font-size: 30px;
+    padding-left: 10px;
+    border-bottom: 1px solid white;
+}
+
+.main-content> p{
+    padding-left: 10px;
+}
+
+.discover{
+    margin-top: 20px;
+    
+}
+
+.main-content button{
+    padding-right: 20px 20px;
+color: #fff;
+background-color: rgb(214, 10, 241);
+margin-left: 10px;
+border-radius: 10px;
+transition: 0.5;
+border: none;
+}
+
+.main-content a{
+font-size: 18px;
+padding: 10px 20px;
+color: #fff;
+background-color: rgb(214, 10, 241);
+border-radius: 10px;
+transition: 0.5;
+
+}
+
+.main-content button a:hover{
+    transform: scale(1.1);
+    background-color: rgb(188, 11, 211); 
+    text-decoration: none;
+    color: white;
+}
+.main-content button:hover{
+    transform: scale(1.1);
+   
+}
+
+
+.body1{
+    height: 90vh;
+}
+.body2{
+    height: 100vh;
+    
+}
+
+.cardss {
+   padding-top: 7rem;
+   
+}
+
+.cardss ul{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+
+.cardss ul li{
+    padding: 40px 20px 40px ;
+    background-image: url(images/cardsbg.jpg);
+    border: 1px solid gainsboro;
+    margin: 10px;
+}
+
+.cardss ul li img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.cardss ul li button{
+    padding: 2px 20px 2px  20px;
+    background-color: rgb(214, 10, 241);
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.cardss ul li a{
+    padding: 2px 20px 2px  20px;
+    background-color: rgb(214, 10, 241);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cardss ul li button:hover{
+    transform: scale(1.1);
+    background-color: rgb(188, 11, 211);
+    
+    color: #fff;
+    
+}
+
+
+
+
+
+.footer-content{
+    height: 50vh;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    background-color: black;
+    align-items: center;
+}
+
+.footer-logo{
+    padding-left: 100px;
+}
+
+.footer-logo h1{
+    cursor: pointer;
+}
+
+.subscribe i{
+padding-right: 50px;
+}
+
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 40px;
+    padding: 20px;
+    gap: 30px;
+   
+}
+
+.social-links a{
+    color: azure;
+}
+
+.social-links a:hover{
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+

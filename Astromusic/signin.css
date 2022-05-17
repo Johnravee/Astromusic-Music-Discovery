@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+    font-family: 'Koulen', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+body{
+    background-image: url(images/signinbg.jpg);
+    height: 100vh;
+}
+
+#back-arrow{
+    position: fixed;
+    padding: 10px;
+}
+
+#back-arrow:hover{
+    color: rgb(189, 183, 183);
+}
+
+.main-content{
+    display: flex;
+    padding-top: 2%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+h2{
+    text-align: center;
+}
+
+
+.signinform{
+    border: 1px solid rgb(110, 105, 105);
+    padding: 70px;
+    border-radius: 5px;
+    box-shadow: -4px 6px 11px -10px rgba(240,238,238,0.75);
+-webkit-box-shadow: -4px 6px 11px -10px rgba(240,238,238,0.75);
+-moz-box-shadow: -4px 6px 11px -10px rgba(240,238,238,0.75);
+}
+
+.signinform .tittle{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+
+.signinform .tittle img{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+button{
+    align-self: center;
+}
+
+
+.imgbanner img{
+    padding-left: 3rem;
+   animation: float 2s linear infinite;
+  cursor: pointer;
+  margin-right: 10rem;
+
+}
+
+@keyframes float{
+0%,100%{
+    transform: translateY(0rem);
+}
+
+50%{
+    transform: translateY(1rem);
+}
+
+}
+
+
+
+
+label{
+    font-size: 12px;
+}
+
+a{
+    margin: 20px;
+}
